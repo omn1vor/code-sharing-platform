@@ -1,0 +1,63 @@
+html {
+    font-family: "Cantarell", sans-serif;
+}
+
+h1, h3 {
+    color: #1d3814;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    display: block;
+    background-color: #1d3814;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    width: 10%;
+}
+
+.container {
+    width: 80%;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+.restriction {
+    display: inline;
+}
+
+.note {
+    font-size: small;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.number-input {
+    max-width: 60px;
+}
+
+textarea {
+    min-height: 300px;
+}
+
+#code_snippet {
+    display: block;
+    padding: 1em;
+    width: 80%;
+    background-color: #dde4dc;
+    font-family: Consolas, Menlo, "courier new", monospace;
+    margin: auto;
+}
+
+#result {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
